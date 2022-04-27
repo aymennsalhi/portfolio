@@ -1,0 +1,131 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.tech-item-box {
+    width: 130px;
+    height: 140px;
+    border-radius: 8px;
+    background: rgba(255,255,255,1);
+    margin: 30px 8px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.fa-angular,
+.fa-react,
+.fa-vuejs,
+.fa-html5,
+.fa-css3-alt,
+.fa-sass,
+.fa-js-square,
+.fa-php,
+.fa-laravel,
+.fa-bootstrap,
+.fa-wordpress {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0px auto;
+    transition: 0.8s;
+    z-index: 2;
+}
+
+.tech-item-box:hover {
+    background: rgba(255,255,255,.1);
+}
+
+.ionic-img {
+    margin-top: 3px;
+    transition: 0.8s;
+}
+
+.tech-item-box:hover .fa-angular,
+.tech-item-box:hover .fa-react,
+.tech-item-box:hover .fa-vuejs,
+.tech-item-box:hover .fa-html5,
+.tech-item-box:hover .fa-css3-alt,
+.tech-item-box:hover .fa-sass,
+.tech-item-box:hover .fa-js-square,
+.tech-item-box:hover .fa-php,
+.tech-item-box:hover .fa-laravel,
+.tech-item-box:hover .fa-bootstrap,
+.tech-item-box:hover .fa-wordpress,
+.tech-item-box:hover .ionic-img{
+    margin-top: -50px;
+}
+
+.text-angular {
+    color: #dd0031;
+}
+.text-react {
+    color: #00dcff;
+}
+.text-vuejs {
+    color: #00bd82;
+}
+.text-html5 {
+    color: #fa502e;
+}
+.text-css3-alt {
+    color: #264de4;
+}
+.text-sass {
+    color: #ce679a;
+}
+.text-js-square {
+    color: #f7df1e;
+}
+.text-php {
+    color: #8993c1;
+}
+.text-laravel {
+    color: #ff291a;
+}
+.text-bootstrap {
+    color: #7912f8;
+}
+.text-wordpress {
+    color: #21759a;
+}
+.text-ionic {
+    color: #3880ff;
+}
+
+.tech-item-box span {
+    font-size: 22px;
+    font-weight: 900;
+    opacity: 0;
+    transition: 0.8s;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    line-height: 40px;
+    background: transparent;
+}
+.tech-item-box p{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: -30px;
+    opacity: 0;
+    transition: 0.8s;
+    color: #ffc107;
+}
+
+.tech-item-box:hover span {
+    opacity: 1;
+    margin-top: 40px;
+}
+
+.tech-item-box:hover p {
+    opacity: 1;
+    margin-bottom: 10px;
+}

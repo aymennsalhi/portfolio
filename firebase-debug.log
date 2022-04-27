@@ -1,0 +1,18 @@
+[debug] [2022-04-27T04:21:03.422Z] ----------------------------------------------------------------------
+[debug] [2022-04-27T04:21:03.424Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js open
+[debug] [2022-04-27T04:21:03.425Z] CLI Version:   10.7.1
+[debug] [2022-04-27T04:21:03.425Z] Platform:      win32
+[debug] [2022-04-27T04:21:03.425Z] Node Version:  v16.13.2
+[debug] [2022-04-27T04:21:03.426Z] Time:          Wed Apr 27 2022 05:21:03 GMT+0100 (West Africa Standard Time)
+[debug] [2022-04-27T04:21:03.426Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-27T04:21:03.490Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-27T04:21:03.490Z] > authorizing via signed-in user (aymenm.salhi@gmail.com)
+[debug] [2022-04-27T04:21:03.490Z] [iam] checking project portfolio-46d38 for permissions ["firebase.projects.get"]
+[debug] [2022-04-27T04:21:03.492Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-46d38:testIamPermissions [none]
+[debug] [2022-04-27T04:21:03.493Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-46d38:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-04-27T04:21:04.484Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-46d38:testIamPermissions 200
+[debug] [2022-04-27T04:21:04.484Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-46d38:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-04-27T04:21:04.485Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-46d38 [none]
+[debug] [2022-04-27T04:21:05.110Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-46d38 200
+[debug] [2022-04-27T04:21:05.110Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-46d38 {"projectId":"portfolio-46d38","projectNumber":"995834117930","displayName":"portfolio","name":"projects/portfolio-46d38","resources":{"hostingSite":"portfolio-46d38","realtimeDatabaseInstance":"portfolio-46d38-default-rtdb"},"state":"ACTIVE"}

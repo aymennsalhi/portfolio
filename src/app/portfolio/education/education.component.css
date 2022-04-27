@@ -1,0 +1,89 @@
+.card {
+    min-height: 200px;
+    height: auto;
+    background: rgba(255,255,255,.1);
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 45px;
+    position: relative;
+    padding: 10px;
+}
+
+.univ-logo-box {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    background: #fff;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin: -25px 0 0 20px;
+    padding: 4px;
+}
+.univ-logo-box img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card h1 {
+    font-size: 28px;
+    margin-left: 150px;
+    font-family: 'Handlee', cursive;
+}
+.card h1 span {
+    color: #ffc107;
+}
+.periodbox {
+    font-weight: 900 !important;
+    margin-left: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.topbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detailsbox {
+    margin-top: 25px;
+    padding-left: 150px;
+}
+
+.detailsbox h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.detailsbox h4 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.location {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.location a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.8s;
+}
+.location a:hover {
+    color: #ffc107;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        margin: 50px 5px 5px 5px;
+    }
+    .card h1 {
+        font-size: 18px;
+    }
+    .detailsbox {
+        padding-left: 10px;
+    }
+    .detailsbox h3 {
+        font-size: 16px;
+    }
+}

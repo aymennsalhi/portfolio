@@ -1,0 +1,35 @@
+.nav-tabs .nav-item {
+    border-radius: 0;
+    border-bottom: 0px solid transparent;
+    color: #fff;
+}
+
+.nav-tabs .nav-item .nav-link {
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+.nav-tabs .nav-item .active {
+    border: 1px solid transparent;
+    border-radius: 0;
+    background: #ffc10711;
+    border-bottom: 5px solid #ffc107;
+    color: #ffc107;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid red;
+}
+
+input {
+    background: #202020 !important;
+    border: 1px solid #444;
+    color: #fff;
+}
+input::placeholder {
+    color: #999;
+}
+
+input:focus {
+    color: #fff;
+}

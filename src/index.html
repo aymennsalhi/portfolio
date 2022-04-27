@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AymenSalhiPortfolio</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/icon.ico">
+  <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+<body>
+  <app-root></app-root>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="assets/js/all.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+
+  <script>
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll > 400) {
+        document.getElementById("gototopbtnid").style.display = "block";
+      }
+      else {
+        document.getElementById("gototopbtnid").style.display = "none";
+      }
+    });
+
+    function gotopfunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+</html>

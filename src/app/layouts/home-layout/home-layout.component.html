@@ -1,0 +1,75 @@
+<nav class="navbar navbar-expand-md px-3 py-md-0 shadow" style="width: 100%; top: 0; left: 0; right: 0; min-height: 60px; height: auto; position: fixed; background: #202020; z-index: 20000;">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" routerLink="/verif-login" style="font-family: 'Handlee', cursive; font-size: 32px;"><span style="color: #ffc107 !important; margin-right: 8px;"> Aymen</span>Salhi</a>
+    <button class="btn btn-outline-warning navbartoggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars" style="font-size: 20px;"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background: #202020 !important">
+
+      <ul class="navbar-nav navbar-menu me-auto ms-3 mb-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/home" routerLinkActive="activeRoute">
+              <i class="fas fa-home iconn"></i> <span>Home</span>
+            </a>
+            <div class="tooltipbox">Home</div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/all-projects" routerLinkActive="activeRoute">
+              <i class="fas fa-folder iconn"></i> <span>Projects</span>
+            </a>
+            <div class="tooltipbox">Projects</div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/all-skills" routerLinkActive="activeRoute">
+              <i class="far fa-list-alt iconn"></i> <span>My Skills</span>
+            </a>
+            <div class="tooltipbox">My Skills</div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/technologies" routerLinkActive="activeRoute">
+              <i class="fas fa-cubes iconn"></i> <span>Technologies</span>
+            </a>
+            <div class="tooltipbox">Technologies</div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/bundles" routerLinkActive="activeRoute">
+              <i class="fas fa-gift iconn"></i> <span>Bundles</span>
+            </a>
+            <div class="tooltipbox">Bundles</div>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link pointer" (click)="onClickScroll('contactussection')">
+                <i class="far fa-envelope iconn"></i> <span>Contact Me</span>
+              </a>
+              <div class="tooltipbox">Contact Me</div>
+          </li>
+
+        
+      </ul>
+
+      <ul class="navbar-nav navbar-menu ms-auto mb-0">
+        <div class="contact-details">
+          <a target="_blank" href="https://www.linkedin.com/in/salhi-aymen-485856174/"><i class="fab fa-linkedin"></i></a>
+          <a target="_blank" href="https://wa.me/21621541831"><i class="fab fa-whatsapp-square"></i></a>
+          <a target="_blank" href="https://www.youtube.com/channel/UCvmUxKm7q54fGdBr3ywoJgg"><i class="fab fa-youtube-square"></i></a>
+        </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid mx-0 px-0" style="margin-top: 80px; min-height: calc(100vh - 80px);">
+    <router-outlet></router-outlet>
+</div>
+
+
+<div class="public-footer">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic deleniti qui ducimus dolore, a non laudantium pariatur commodi, itaque ut neque consequuntur aliquid at alias quisquam? Fuga, assumenda repellendus.
+</div>
+
+<button class="btn btn-warning gototopbtn" id="gototopbtnid" onclick="gotopfunction()"><i class="fas fa-chevron-up"></i></button>

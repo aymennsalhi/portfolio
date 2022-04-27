@@ -1,0 +1,46 @@
+<div class="card col-lg-6 col-md-9 col-sm-12 mx-auto my-5 p-0" style="border: none;">
+    <ul class="nav nav-tabs" id="myTab" role="tablist" style="background: #303030">
+        <li class="nav-item col-6" role="presentation">
+          <button class="nav-link col-12 active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-controls="login" aria-selected="true">Login</button>
+        </li>
+        <li class="nav-item col-6" role="presentation">
+          <button class="nav-link col-12" id="register-tab" data-bs-toggle="tab" data-bs-target="#register" type="button" role="tab" aria-controls="register" aria-selected="false">Register</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent" style="background: #252525">
+        <div class="tab-pane p-3 fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@email.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="********">
+                </div>
+                <div class="col-12 text-end">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="tab-pane p-3 fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+            <form>
+                <div class="mb-3">
+                  <label for="fullname" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="fullname" placeholder="Full Name">
+                </div>
+                <div class="mb-3">
+                    <label for="registeremail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="registeremail" aria-describedby="emailHelp" placeholder="example@email.com">
+                  </div>
+                <div class="mb-3">
+                  <label for="registerpassword" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="registerpassword" placeholder="********">
+                </div>
+                <div class="col-12 text-end">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </div>
+            </form>
+        </div>
+      </div>
+</div>
